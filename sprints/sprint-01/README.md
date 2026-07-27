@@ -15,11 +15,12 @@
 - Modelo comercial identificado: **bloqueio de grupo** (já praticado no mercado), sob 5 condições obrigatórias
 - Calibrações de mercado: adesão realista 50–70%, desconto de bloqueio 20–30%, meta de custo −15% a −25%
 
-## Entregáveis originais
+## Entregáveis
 
-Adicionar em [`entregaveis/`](entregaveis/) os arquivos produzidos na sprint:
+- ✅ [`entregaveis/Sprint_01_Kairos_Apresentacao_Final.pptx`](entregaveis/Sprint_01_Kairos_Apresentacao_Final.pptx) (11 slides)
 
-- `Sprint_01_Kairos_Apresentacao_Final.pptx` (11 slides)
+Pendentes de adicionar em [`entregaveis/`](entregaveis/), se localizados:
+
 - `Sprint_01_Kairos_Resumo_Final.pdf`
 - `Mapa_Contexto_Consolidado_Kairos.pdf`
 - `Objetivo_Longo_Prazo_Sprint_01_Kairos.pdf`

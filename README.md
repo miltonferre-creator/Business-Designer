@@ -30,14 +30,15 @@ Na prática: o aluno conhece as datas desde a matrícula, mas compra com menos d
 ```
 sprints/
 ├── sprint-01/            Diagnóstico: problema, contexto, hipóteses e entrevistas
-│   └── entregaveis/      (adicionar PDFs e PPTX originais da sprint)
+│   └── entregaveis/      Sprint_01_Kairos_Apresentacao_Final.pptx ✓
 ├── sprint-02/            Desenho da solução: stakeholders, VPD, nome e marca
-│   └── entregaveis/      (adicionar PPTX, guia da marca e logos)
+│   └── entregaveis/      Sprint_02_Kairos_Antevia.pptx + guia da marca (PDF) ✓
 └── sprint-03/            Solução formalizada, BMC e personas
     └── entregaveis/      Sprint_03_Kairos_Antevia.pptx ✓
 banca-de-modelagem/       Pitch de 10 min: jornada, diferenciais, atores e financeiro
 └── entregaveis/          Banca_Modelagem_Kairos_Antevia.pptx ✓
 marca/                    Identidade visual "Minimal Future" e diretrizes de escrita
+└── assets/               antevia_logo.png, antevia_appicon.png ✓
 ```
 
 Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint-01/README.md`](sprints/sprint-01/README.md) e siga a ordem.
@@ -66,7 +67,7 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 ## Próximos passos
 
 - Apresentar à Banca de Modelagem e registrar o feedback em `banca-de-modelagem/`
-- Adicionar os entregáveis originais das Sprints 1 e 2 nas pastas `entregaveis/`
+- Adicionar os PDFs complementares da Sprint 1 (resumos, mapa de contexto, hipóteses), se localizados
 - Validar H2 (tempo por encontro) e H6 (disposição a pagar R$ 50–150) com alunos-executivos
 - Entrevistar coordenação de campus com fluxo de fora (Nova Lima, SP ou Rio)
 - Acompanhar o registro formal da marca no INPI

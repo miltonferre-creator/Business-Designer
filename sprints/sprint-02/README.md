@@ -13,11 +13,13 @@ A sprint gerou um deck de 12 slides e um documento de trabalho de 8 páginas cob
 5. **Nome** — Antévia (antes + via): o caminho resolvido antes da hora. Busca preliminar no INPI sem registro conflitante
 6. **Marca** — identidade visual "Minimal Future" (ver [`../../marca/identidade-visual.md`](../../marca/identidade-visual.md)), com os pilares Antecipação, Caminho e Facilitação
 
-## Entregáveis originais
+## Entregáveis
 
-Adicionar em [`entregaveis/`](entregaveis/):
+- ✅ [`entregaveis/Sprint_02_Kairos_Antevia.pptx`](entregaveis/Sprint_02_Kairos_Antevia.pptx) (12 slides)
+- ✅ [`entregaveis/guia_de_identidade_da_marca_antevia.pdf`](entregaveis/guia_de_identidade_da_marca_antevia.pdf)
+- ✅ Assets de marca recuperados do deck: [`../../marca/assets/`](../../marca/assets/) (`antevia_logo.png`, `antevia_appicon.png`)
 
-- `Sprint_02_Kairos_Antevia.pptx` (12 slides)
+Pendentes de adicionar, se localizados:
+
 - Documento de trabalho em PDF (8 páginas, com a marca)
-- `guia_de_identidade_da_marca_antevia.pdf`
-- Assets de marca: `antevia_logo.png/.svg`, `antevia_logo_dark.png/.svg`, `antevia_appicon.png`, `antevia_symbol.png`
+- Demais assets em alta: `antevia_logo.svg`, `antevia_logo_dark.png/.svg`, `antevia_symbol.png`
