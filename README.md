@@ -23,7 +23,7 @@ Na prática: o aluno conhece as datas desde a matrícula, mas compra com menos d
 | Sprint 1 — Diagnóstico: problema, contexto, hipóteses e entrevistas | ✅ Concluída | [`sprints/sprint-01/`](sprints/sprint-01/) |
 | Sprint 2 — Desenho da solução: stakeholders, VPD, nome e marca | ✅ Concluída | [`sprints/sprint-02/`](sprints/sprint-02/) |
 | Sprint 3 — Solução formalizada, BMC e personas | ✅ Concluída | [`sprints/sprint-03/`](sprints/sprint-03/) |
-| Banca de Modelagem — pitch de 10 minutos | 🎤 Deck pronto, apresentação a realizar | [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/) |
+| Banca de Modelagem — pitch de 10 minutos | ✅ Apresentada | [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/) |
 | Sprint 4 — Viabilidade: projeção de receitas | ✅ Concluída | [`sprints/sprint-04/`](sprints/sprint-04/) |
 | Sprint 5 — Viabilidade: custos, despesas e investimentos | ⬜ A fazer | — |
 | Sprint 6 — Plano de implementação | ⬜ A fazer | — |
@@ -41,7 +41,7 @@ sprints/
 │   ├── entregaveis/          Sprint_03_Kairos_Antevia.pptx ✓
 │   └── banca-de-modelagem/   Pitch de 10 min: jornada, diferenciais, atores e financeiro
 │       └── entregaveis/      Banca_Modelagem_Kairos_Antevia.pptx ✓
-└── sprint-04/                Viabilidade: mercado, preço e cenários de receita
+└── sprint-04/                Viabilidade: mercado, preço, cenários e conferência com a banca
     └── entregaveis/          Sprint_04_Kairos_Antevia.pptx + modelo de receitas (XLSX) ✓
 marca/                        Identidade visual "Minimal Future" e diretrizes de escrita
 └── assets/                   antevia_logo.png, antevia_appicon.png ✓
@@ -65,6 +65,7 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 | Como o preço foi definido | [`sprints/sprint-04/precificacao.md`](sprints/sprint-04/precificacao.md) |
 | Quanto o negócio fatura e em que cenários | [`sprints/sprint-04/cenarios-de-receita.md`](sprints/sprint-04/cenarios-de-receita.md) |
 | De onde vem cada número | [`sprints/sprint-04/premissas.md`](sprints/sprint-04/premissas.md) |
+| Se a Sprint 4 bate com o que foi à banca | [`sprints/sprint-04/consistencia-com-a-banca.md`](sprints/sprint-04/consistencia-com-a-banca.md) |
 | A identidade visual | [`marca/identidade-visual.md`](marca/identidade-visual.md) |
 
 ## Decisões-chave (resumo)
@@ -90,8 +91,8 @@ Faixa dos cenários: R$ 1,42 mi (pessimista) · R$ 4,58 mi (tendencial) · R$ 11
 
 ## Próximos passos
 
-- Apresentar à Banca de Modelagem e registrar o feedback em [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/)
-- Corrigir "720 viagens / R$ 72 mil por turma/ano" no material da banca — os valores são do ciclo de 20 meses, não de um ano ([detalhe](sprints/sprint-04/cenarios-de-receita.md))
+- Registrar o feedback da Banca de Modelagem em [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/)
+- Usar 432 viagens e R$ 43,2 mil por turma/ano da Sprint 5 em diante — o deck da banca foi apresentado com os valores do ciclo de 20 meses rotulados como anuais ([conferência](sprints/sprint-04/consistencia-com-a-banca.md))
 - Entrevistar coordenação de campus com fluxo de fora para validar o ritmo de contratação de turmas — variável de maior impacto na projeção
 - Validar H2 (tempo por encontro) e H6 (disposição a pagar R$ 50–150) com alunos-executivos
 - Iniciar a Sprint 5: custos, despesas, investimentos, macroprocesso e DFC de 3 anos

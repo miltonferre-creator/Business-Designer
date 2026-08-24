@@ -20,7 +20,7 @@ O documento [atores-e-financeiro.md](../sprint-03/banca-de-modelagem/atores-e-fi
 
 100 alunos × 60% × 12 módulos = 720 viagens ao longo de 20 meses. Anualizado, dá 432 viagens e R$ 43,2 mil por turma.
 
-A projeção abaixo usa o ritmo correto. Vale corrigir o texto da banca antes da apresentação: um avaliador que dividir 12 módulos por 20 meses encontra a inconsistência em dez segundos.
+A projeção abaixo usa o ritmo correto. O deck da banca foi apresentado com o número errado, então não há o que corrigir no material já exibido — o encaminhamento é usar os valores certos da Sprint 5 em diante. A conferência completa entre o que foi apresentado e este modelo está em [consistencia-com-a-banca.md](consistencia-com-a-banca.md).
 
 ## Receita por viagem, por cenário
 

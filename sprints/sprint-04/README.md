@@ -8,6 +8,7 @@
 - [`precificacao.md`](precificacao.md) — pesquisa de preços dos concorrentes e substitutos, definição do preço e ancoragem no valor entregue
 - [`cenarios-de-receita.md`](cenarios-de-receita.md) — volume por trimestre, três cenários e análise de sensibilidade
 - [`premissas.md`](premissas.md) — todas as premissas com origem e status, fórmulas e o que ficou fora do modelo
+- [`consistencia-com-a-banca.md`](consistencia-com-a-banca.md) — conferência número a número contra o que foi defendido na Banca de Modelagem
 
 ## Números-síntese (cenário tendencial, 3 anos)
 
@@ -27,7 +28,7 @@ Faixa dos três cenários: **R$ 1,42 mi** (pessimista) · **R$ 4,58 mi** (tenden
 - **O preço se ancora na economia, não na disposição a pagar.** O aluno paga R$ 100 por módulo e recebe R$ 400 líquidos de volta — retorno de 4× sobre a taxa. Isso tira a precificação da discussão subjetiva e a prende a um número verificável.
 - **A variável crítica não é a adesão.** A sensibilidade aponta o ritmo de contratação de turmas (±30%) como o fator determinante, bem à frente da adesão (±17%) — que era o risco que o grupo vinha tratando como principal desde a Sprint 1. O gargalo é assinar coordenações, não convencer alunos.
 - **A receita não depende só do aluno.** A comissão paga pelos fornecedores responde por 52% da receita por viagem. Se H6 se confirmar no piso da faixa (R$ 50), o modelo perde 24% da receita — não deixa de existir.
-- **Correção de um número da Banca de Modelagem.** As "720 viagens e R$ 72 mil por turma/ano" são, na verdade, o ciclo completo de 20 meses. Anualizado, dá 432 viagens e R$ 43,2 mil. Detalhe em [`cenarios-de-receita.md`](cenarios-de-receita.md).
+- **A projeção não contradiz o que foi defendido na banca.** Dos dez números afirmados na apresentação, sete conferem, dois exigem qualificação e um está errado — o "720 viagens / R$ 72 mil por turma/ano", que é o ciclo de 20 meses e não um ano. A conferência completa está em [`consistencia-com-a-banca.md`](consistencia-com-a-banca.md).
 
 ## Entregáveis
 
@@ -44,6 +45,8 @@ Cobertura dos itens pedidos no Encontro 5:
 | d. Pesquisa de preços | [`precificacao.md`](precificacao.md) |
 | e. Definição de preços | [`precificacao.md`](precificacao.md) |
 | f. Cenários de receitas por período | [`cenarios-de-receita.md`](cenarios-de-receita.md) |
+
+Conferência adicional, não pedida pelo Encontro 5: [`consistencia-com-a-banca.md`](consistencia-com-a-banca.md) confronta o modelo com o deck efetivamente apresentado à Banca de Modelagem.
 
 ## Validações pendentes
 

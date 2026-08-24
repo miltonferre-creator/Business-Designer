@@ -26,4 +26,10 @@
 
 ## Status
 
-Deck pronto. Apresentação a realizar — registrar aqui o feedback da banca após a sessão.
+✅ **Apresentada.** O arquivo em `entregaveis/` é a versão que foi efetivamente exibida à banca.
+
+O feedback dos avaliadores ainda não foi registrado — anotar aqui assim que compilado, incluindo o que a banca questionou e o que sugeriu.
+
+### Nota sobre o número do slide 9
+
+O slide de ganhos financeiros foi apresentado com "720 viagens organizadas por ano" e "R$ 72 mil por turma/ano". Os valores correspondem ao **ciclo completo de 20 meses**, não a um ano — anualizados, são 432 viagens e R$ 43,2 mil. O material apresentado não será alterado; a Sprint 4 em diante usa os valores corretos. Conferência completa em [`../../sprint-04/consistencia-com-a-banca.md`](../../sprint-04/consistencia-com-a-banca.md).
