@@ -61,6 +61,38 @@ Chegar a 6,2% do SAM em três anos é defensável para um negócio que capta alu
 
 A primeira versão deste documento projetava 24% do SAM, apoiada em turma de 100 alunos e adesão de 60% desde o primeiro trimestre. Não se sustentava. O racional da revisão está em [viabilidade-do-primeiro-ano.md](viabilidade-do-primeiro-ano.md).
 
+## O que é receita e o que não é
+
+Uma distinção que precisa ficar explícita, porque muda a leitura de todos os números desta sprint.
+
+**A Antévia não compra e revende passagem.** O aluno paga a companhia aérea e o hotel; a Antévia intermedeia. Isso significa que **o ticket de R$ 1.920 não é custo nosso** — é dinheiro que passa pelo aluno para o fornecedor.
+
+| Conceito | O que é | Valor por viagem (fase 1) |
+|---|---|---|
+| **GMV** — volume transacionado | O que o aluno paga aos fornecedores | R$ 1.920 |
+| **Receita da Antévia** | Taxa de serviço + comissão dos fornecedores | R$ 157,60 |
+| Custo direto de vendas | Não existe neste modelo | R$ 0 |
+
+Consequências:
+
+1. **Não há margem bruta a apresentar na Sprint 4.** Sem custo de mercadoria vendida, receita e margem de contribuição se confundem. Os R$ 1,10 milhão dos três anos são receita líquida de intermediação, não faturamento bruto.
+2. **Todos os custos são operacionais.** Time de concierge, plataforma, administrativo, conformidade, meios de pagamento e capital de giro entram como custos e despesas — matéria da **Sprint 5**, que trata de OPEX e CAPEX.
+3. **O GMV importa mesmo assim**, por dois motivos: é o que determina a faixa de comissão junto aos fornecedores, e é a base sobre a qual se calcula a economia entregue ao aluno.
+
+Se o modelo fosse de revenda — a Antévia comprando em nome próprio e faturando o valor cheio —, a receita de 3 anos seria o GMV de R$ 9,61 milhões e apareceria um custo de mercadoria de cerca de R$ 8,5 milhões. O resultado final seria o mesmo; a apresentação, bem diferente. Optamos pela forma que descreve o negócio como ele funciona.
+
+## Estrutura para atuar em cada segmento
+
+O Encontro 5 pede quais segmentos serão acessados em cada período e com que estrutura. O dimensionamento de pessoas e custos é da Sprint 5; aqui fica o desenho de cobertura.
+
+| Período | Segmento acessado | Estrutura para atuar |
+|---|---|---|
+| **Ano 1** | 1 a 2 campi com fluxo de fora, priorizando Nova Lima | Operação conduzida pelos sócios. Compra via consolidadora parceira, sem estrutura de compras própria. Atendimento por WhatsApp e planilha |
+| **Ano 2** | Ampliação para São Paulo e Rio; múltiplas turmas por campus | Primeiros concierges dedicados. Plataforma com calendário e painel de custos. Negociação de bloqueios pontuais nas rotas que concentram |
+| **Ano 3** | Escolas de negócios além da FDC, mesmos eixos | Time de concierge por carteira de campus. Convênio próprio com companhias e hotéis. Área de relacionamento institucional para abrir novas escolas |
+
+A progressão é deliberada: **a estrutura só cresce depois que o volume aparece.** No ano 1 não há equipe contratada porque não há receita que a sustente — o que a [`viabilidade-do-primeiro-ano.md`](viabilidade-do-primeiro-ano.md) detalha.
+
 ## Ticket logístico por módulo
 
 Aluno de fora, ida e volta mais duas diárias. Hoje ele desembolsa R$ 2.200 comprando em cima da hora.

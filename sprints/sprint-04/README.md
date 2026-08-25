@@ -28,6 +28,7 @@ Faixa dos três cenários: **R$ 551 mil** (pessimista) · **R$ 1,10 mi** (tenden
 
 ## Principais resultados
 
+- **Não há custo de mercadoria vendida.** A Antévia intermedeia, não compra e revende: o aluno paga o fornecedor direto. Os R$ 1,10 mi são receita de intermediação, e todos os custos são operacionais — matéria da Sprint 5.
 - **A unidade é o aluno captado, não a turma.** Meta de 100 alunos no ano 1, somando todas as turmas e instituições. Isso elimina do modelo as duas premissas mais frágeis que ele tinha — tamanho da turma e taxa de adesão dentro dela — e deixa três variáveis, todas explicáveis em uma frase.
 - **No ano 1 não há poder de negociação.** A economia vem apenas da antecipação — comprar aos 90 dias em vez de menos de 30 —, que é a curva tarifária pública e não exige negociar com fornecedor. A compra passa por uma consolidadora parceira.
 - **Os 100 alunos colocam o ano 1 na entrada da faixa de convênio.** R$ 518 mil de volume aéreo, dentro da faixa de R$ 250–500 mil que a Velt indicou como piso para 3–5%.
@@ -37,7 +38,7 @@ Faixa dos três cenários: **R$ 551 mil** (pessimista) · **R$ 1,10 mi** (tenden
 
 ## Entregáveis
 
-- ✅ [`entregaveis/Sprint_04_Kairos_Antevia.pptx`](entregaveis/Sprint_04_Kairos_Antevia.pptx) — 11 slides para o Squeeze 4
+- ✅ [`entregaveis/Sprint_04_Kairos_Antevia.pptx`](entregaveis/Sprint_04_Kairos_Antevia.pptx) — 11 slides para o Squeeze 4, **com roteiro de apresentação no campo de anotações de cada slide** (tempo sugerido, o que falar e respostas para as perguntas prováveis; total de 10 minutos)
 - ✅ [`entregaveis/Antevia_Modelo_Receitas.xlsx`](entregaveis/Antevia_Modelo_Receitas.xlsx) — modelo com premissas isoladas para simulação, 12 trimestres, 3 cenários e sensibilidade
 
 Cobertura dos itens pedidos no Encontro 5:
