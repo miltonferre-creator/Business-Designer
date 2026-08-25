@@ -73,7 +73,7 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 
 - **Concierge, não marketplace.** O produto é a função "gestor de viagens do aluno", que hoje não existe — não uma plataforma de compra.
 - **Modelo comercial já existente — mas não desde o dia um.** O bloqueio de grupo é praticado no mercado e não precisa ser inventado. Só que ele exige volume: no início a compra passa por uma consolidadora parceira.
-- **Números calibrados por entrevistas.** Desconto de bloqueio de 20–30% (não 40–50%) e adesão de 50–70% — faixas que descrevem a **operação madura**. O ano 1 trabalha com 30% de adesão e sem bloqueio.
+- **Números calibrados por entrevistas.** Desconto de bloqueio de 20–30% (não 40–50%) — faixa que descreve a **operação madura**. O ano 1 opera sem bloqueio próprio, apoiado numa consolidadora.
 - **A dor não é universal.** Concentra-se em campi com fluxo de alunos de fora (Nova Lima, SP, Rio) — variável central de escopo.
 - **Nada é imposto ao aluno.** Condição da escola para indicar o serviço; o aluno mantém companhia, voo e milhas.
 - **O preço se ancora na economia entregue,** mas a economia cresce com o tempo. O aluno recebe R$ 180 líquidos por módulo no ano 1 e R$ 400 no ano 3 — retorno de 1,8× subindo para 4× (Sprint 4).
@@ -88,7 +88,7 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 | Receita do ano 1 | R$ 70,9 mil |
 | Economia devolvida aos alunos | R$ 1,95 mi |
 | Viagens organizadas | 5.508 |
-| Alunos ativos no T12 | 650 (6,2% do SAM) |
+| Alunos ativos no T12 | 650 — 6,2% do mercado onde podemos atuar |
 
 Faixa dos cenários: R$ 551 mil (pessimista) · R$ 1,10 mi (tendencial) · R$ 1,83 mi (otimista). Memória de cálculo em [`sprints/sprint-04/`](sprints/sprint-04/).
 

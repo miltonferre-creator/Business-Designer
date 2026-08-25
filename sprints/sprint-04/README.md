@@ -22,7 +22,7 @@
 | Volume transacionado (GMV) | R$ 9,61 mi |
 | Viagens organizadas | 5.508 |
 | Economia devolvida aos alunos | R$ 1,95 mi |
-| Alunos ativos no T12 | 650 (6,2% do SAM) |
+| Alunos ativos no T12 | 650 — 6,2% do mercado onde podemos atuar |
 
 Faixa dos três cenários: **R$ 551 mil** (pessimista) · **R$ 1,10 mi** (tendencial) · **R$ 1,83 mi** (otimista).
 

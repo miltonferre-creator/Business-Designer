@@ -77,7 +77,7 @@ O cenário tendencial chega aos 100 alunos no fim do ano 1, cresce para 280 no a
 | GMV | R$ 4,82 mi | R$ 9,61 mi | R$ 16,00 mi |
 | Economia dos alunos | R$ 978 mil | R$ 1,95 mi | R$ 3,27 mi |
 | Alunos ativos no T12 | 320 | 650 | 1.100 |
-| Fatia do SAM no T12 | 3,0% | 6,2% | 10,5% |
+| Fatia do mercado onde atuamos, no T12 | 3,0% | 6,2% | 10,5% |
 
 A economia devolvida aos alunos continua sendo quase o dobro da receita da empresa. É o argumento que sustenta a indicação pela escola.
 

@@ -29,7 +29,7 @@ A escola não desembolsa. Ela empresta o CNPJ e o calendário, indica a Antévia
 
 Construído de baixo para cima, a partir da base do IBGE já usada na Sprint 1. Cada premissa está identificada e rastreada em [premissas.md](premissas.md).
 
-### TAM — Brasil
+### Quantos existem — o mercado total (TAM)
 
 | # | Etapa | Cálculo | Resultado |
 |---|---|---|---|
@@ -42,24 +42,24 @@ Construído de baixo para cima, a partir da base do IBGE já usada na Sprint 1. 
 
 O TAM usa o ticket e a comissão da **fase 3** — é o tamanho do mercado para um operador maduro, não para quem está começando.
 
-### SAM — campi com fluxo de fora
+### Quantos podemos atender — campi com fluxo de fora (SAM)
 
 A dor não é universal: concentra-se em Nova Lima, São Paulo e Rio (achado das entrevistas com Manaus e Belém). O SAM restringe o TAM às escolas de grande porte nesses campi — **25% do TAM (P3)**.
 
 - 10.500 alunos-viajantes · 75.600 viagens/ano
 - **R$ 15,8 mi/ano** de receita capturável
 
-### SOM — 3 anos, cenário tendencial
+### Quantos vamos atender — 3 anos, cenário tendencial (SOM)
 
-| Fim do | Alunos ativos | Receita anualizada | % do SAM |
+| Fim do | Alunos ativos | Receita anualizada | % dos 10.500 |
 |---|---|---|---|
 | Ano 1 | 100 | R$ 113 mil | 1,0% |
 | Ano 2 | 280 | R$ 383 mil | 2,7% |
 | Ano 3 | 650 | R$ 977 mil | **6,2%** |
 
-Chegar a 6,2% do SAM em três anos é defensável para um negócio que capta aluno a aluno, pelo canal da escola.
+Chegar a 6,2% desse mercado em três anos é defensável para um negócio que capta aluno a aluno, pelo canal da escola.
 
-A primeira versão deste documento projetava 24% do SAM, apoiada em turma de 100 alunos e adesão de 60% desde o primeiro trimestre. Não se sustentava. O racional da revisão está em [viabilidade-do-primeiro-ano.md](viabilidade-do-primeiro-ano.md).
+A primeira versão deste documento projetava 24% desse mercado, apoiada em turma de 100 alunos e adesão de 60% desde o primeiro trimestre. Não se sustentava. O racional da revisão está em [viabilidade-do-primeiro-ano.md](viabilidade-do-primeiro-ano.md).
 
 ## O que é receita e o que não é
 
