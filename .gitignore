@@ -1,0 +1,6 @@
+# Arquivos de trava do Office (aparecem enquanto um .pptx/.xlsx esta aberto)
+~$*
+
+# Sistema
+Thumbs.db
+.DS_Store
