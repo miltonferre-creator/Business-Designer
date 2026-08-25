@@ -2,7 +2,7 @@
 
 **Objetivo da sprint (Squeeze 4):** traduzir o modelo de negócio em números — dimensionar o mercado, pesquisar e definir o preço, e projetar a receita em três cenários ao longo de 12 trimestres.
 
-> **Segunda versão.** A primeira projetava R$ 4,58 mi em 3 anos apoiada em duas premissas que não se sustentaram: turma de 100 alunos tratada como fato validado, e poder de negociação com fornecedores desde o primeiro trimestre. A revisão está em [`viabilidade-do-primeiro-ano.md`](viabilidade-do-primeiro-ano.md).
+> **Terceira versão.** A primeira projetava R$ 4,58 mi apoiada em turma de 100 alunos e poder de negociação desde o T1. A segunda reduziu a turma a 40. Esta **tira a turma do modelo**: a unidade é o aluno captado, como o exemplo da Banca de Modelagem já fazia. Racional em [`viabilidade-do-primeiro-ano.md`](viabilidade-do-primeiro-ano.md).
 
 ## Documentos desta pasta
 
@@ -10,29 +10,30 @@
 - [`precificacao.md`](precificacao.md) — pesquisa de preços, definição do preço e ancoragem no valor entregue
 - [`cenarios-de-receita.md`](cenarios-de-receita.md) — volume por trimestre, três cenários e análise de sensibilidade
 - [`premissas.md`](premissas.md) — as premissas com origem e status, fórmulas e o que ficou fora do modelo
-- [`viabilidade-do-primeiro-ano.md`](viabilidade-do-primeiro-ano.md) — **por que o ano 1 é a fase mais difícil**, as três fases de poder de negociação e o problema do tamanho de grupo
+- [`viabilidade-do-primeiro-ano.md`](viabilidade-do-primeiro-ano.md) — **por que o ano 1 é a fase mais difícil**, as três fases de poder de negociação e o limiar de concentração
 - [`consistencia-com-a-banca.md`](consistencia-com-a-banca.md) — conferência contra o que foi defendido na Banca de Modelagem
 
 ## Números-síntese (cenário tendencial, 3 anos)
 
 | Indicador | Valor |
 |---|---|
-| Receita acumulada | **R$ 959 mil** |
-| Receita do ano 1 | **R$ 34 mil** |
-| Volume transacionado (GMV) | R$ 8,24 mi |
-| Viagens organizadas | 4.752 |
-| Economia devolvida aos alunos | R$ 1,74 mi |
-| Aderentes no T12 | 576 (5,5% do SAM) |
+| Receita acumulada | **R$ 1,10 mi** |
+| Receita do ano 1 | **R$ 70,9 mil** |
+| Volume transacionado (GMV) | R$ 9,61 mi |
+| Viagens organizadas | 5.508 |
+| Economia devolvida aos alunos | R$ 1,95 mi |
+| Alunos ativos no T12 | 650 (6,2% do SAM) |
 
-Faixa dos três cenários: **R$ 348 mil** (pessimista) · **R$ 959 mil** (tendencial) · **R$ 2,01 mi** (otimista).
+Faixa dos três cenários: **R$ 551 mil** (pessimista) · **R$ 1,10 mi** (tendencial) · **R$ 1,83 mi** (otimista).
 
 ## Principais resultados
 
-- **O primeiro ano rende R$ 34 mil e não paga ninguém.** É menos de R$ 3 mil por mês. Ou os sócios operam com as próprias mãos, ou é preciso capital para atravessar. A Sprint 5 dimensiona o custo desse período.
-- **No ano 1 não há poder de negociação.** A economia vem apenas da antecipação — comprar aos 90 dias em vez de menos de 30 —, que é a curva tarifária pública e não exige negociar com fornecedor. A compra é feita através de uma consolidadora parceira. Tarifa de grupo e convênio próprio vêm depois, com volume.
-- **Uma turma isolada não forma tarifa de grupo.** Com 40 alunos e 30% de adesão em 5 origens, são 2,4 passageiros por rota — o mínimo de mercado é 10. A unidade de negociação precisa ser o campus numa data, somando 3 a 5 turmas simultâneas, e não a turma individual.
+- **A unidade é o aluno captado, não a turma.** Meta de 100 alunos no ano 1, somando todas as turmas e instituições. Isso elimina do modelo as duas premissas mais frágeis que ele tinha — tamanho da turma e taxa de adesão dentro dela — e deixa três variáveis, todas explicáveis em uma frase.
+- **No ano 1 não há poder de negociação.** A economia vem apenas da antecipação — comprar aos 90 dias em vez de menos de 30 —, que é a curva tarifária pública e não exige negociar com fornecedor. A compra passa por uma consolidadora parceira.
+- **Os 100 alunos colocam o ano 1 na entrada da faixa de convênio.** R$ 518 mil de volume aéreo, dentro da faixa de R$ 250–500 mil que a Velt indicou como piso para 3–5%.
+- **A concentração é o que liga a tarifa de grupo.** São necessários 50 a 60 alunos no mesmo campus e data para reunir os 10 passageiros por rota exigidos. Nenhuma turma isolada chega lá; a captação precisa ser concentrada, não pulverizada.
 - **O retorno para o aluno começa em 1,8×, não em 4×.** Ele paga R$ 100 e recebe R$ 180 líquidos no ano 1, chegando a R$ 400 no ano 3. No começo a venda não se sustenta só no desconto: apoia-se no tempo devolvido.
-- **O tamanho da turma é a premissa mais barata de validar e a que mais move o modelo.** Move a receita em +50% para cima. Nunca foi verificada com a escola.
+- **O primeiro ano rende R$ 71 mil.** Menos de R$ 6 mil por mês — não paga uma equipe. A Sprint 5 dimensiona o custo de atravessar esse período.
 
 ## Entregáveis
 
@@ -56,13 +57,12 @@ Conferências adicionais, não pedidas pelo Encontro 5: [`viabilidade-do-primeir
 
 Em ordem de impacto sobre a projeção:
 
-1. **Tamanho da turma** — usamos 40; a banca usou 100 sem verificação. Move a receita em +50%. Pergunta de dois minutos à secretaria da FDC.
-2. **Adesão no ano 1, sem prova social** — usamos 30%. É a variável de maior queda (−33%). Entrevistar aluno-executivo viajante, que responde também a H6.
-3. **Ritmo de contratação de turmas** — 24 turmas no T12, sem nenhuma referência externa. Entrevistar coordenação de campus com fluxo de fora.
+1. **Alunos captados no ano 1** — usamos 100. É a variável dominante (±30%) e a que o grupo mais controla. Entrevistar coordenação de campus com fluxo de fora.
+2. **Concentração por campus e data** — 50 a 60 alunos numa mesma data ligam a tarifa de grupo. Conferir contra o calendário acadêmico dos campi.
+3. **H6 — disposição a pagar R$ 50–150** — responde por 63% da receita no ano 1. Entrevistar aluno-executivo viajante, o único stakeholder pagante ainda não ouvido.
 4. **Desconto real da antecipação aos 90 dias** — 13% no aéreo. É a única alavanca do ano 1. Cotar com consolidadora.
 5. **Repasse da consolidadora no ano 1** — 3%. Conversa com a Velt.
-6. **Mínimo de passageiros para tarifa de grupo** — usamos 10. Define quando a fase 2 começa.
 
 ## Próxima etapa
 
-Sprint 5 — projeção de custos, despesas e investimentos; macroprocesso do negócio; estrutura de pessoal; consolidação em DFC trimestral de 3 anos. A pergunta que ela precisa responder: **quanto capital é preciso para atravessar um primeiro ano de R$ 34 mil de receita.**
+Sprint 5 — projeção de custos, despesas e investimentos; macroprocesso do negócio; estrutura de pessoal; consolidação em DFC trimestral de 3 anos. A pergunta que ela precisa responder: **quanto capital é preciso para atravessar um primeiro ano de R$ 71 mil de receita.**

@@ -13,15 +13,20 @@ O objetivo é prático: garantir que a Sprint 4 não contradiga o que o grupo j�
 | 12 encontros por programa | Igual | Confere |
 | Programa de 18–24 meses, módulos a cada 4–6 semanas | Ciclo de 20 meses, 0,6 módulo/mês | Confere |
 | Taxa de R$ 50–150, média R$ 100 | R$ 100 nas três fases | Confere |
+| **"100 alunos"** | **Igual — mas como meta de captação anual** | **Confere, relido** |
 | Três fontes de receita | Duas modeladas; fee da escola zerado | Confere, com ressalva |
-| **Turma de 100 alunos** | **40, e marcado como a validar** | **Divergente** |
-| **Adesão de 60% (faixa 50–70%)** | **30% no ano 1, 60% só no ano 3** | **Divergente** |
 | **Bloqueio de grupo com 20–30% de desconto** | **Só na fase 3; ano 1 sem bloqueio** | **Divergente** |
 | **"Aluno economiza 20–30%"** | **8,2% no ano 1; 18,2% no ano 3** | **Divergente** |
 | "Compra a menos de 7 dias custa 2–3× mais" | Modelo usa 1,22× no aéreo do ano 1 | Escalas diferentes |
-| "720 viagens / R$ 72 mil por turma/ano" | Ciclo de 20 meses, e com turma de 100 | **Erro apresentado** |
+| "720 viagens / R$ 72 mil por turma/ano" | 180 viagens no ano 1 com 100 alunos | **Erro de período** |
 
-Quatro divergências têm a mesma raiz: **a banca descreveu a operação madura e a apresentou como se valesse desde o começo.** Nada do que foi dito é impossível — é o ponto de chegada, não o de partida.
+### O "100 alunos" foi relido, e a leitura nova é a da própria banca
+
+A primeira versão da Sprint 4 tratou os "100 alunos" do slide 9 como **tamanho de turma** e marcou a premissa como validada. Estava errado em dois sentidos: turmas da FDC têm por volta de 40 alunos, e o exemplo da banca **não menciona turma nenhuma** — diz apenas "100 alunos · 12 encontros", sem citar instituições nem taxa de adesão.
+
+Lido como **meta de captação anual**, o número volta a fazer sentido e passa a ser o motor do modelo. A divergência que existia desapareceu; o que sobrou foi um erro de período, tratado adiante.
+
+As duas divergências restantes têm a mesma raiz: **a banca descreveu a operação madura e a apresentou como se valesse desde o começo.** Nada do que foi dito é impossível — é o ponto de chegada, não o de partida.
 
 ## 1. O "2–3× mais caro" e o 1,37× do modelo
 
@@ -45,6 +50,8 @@ A banca disse "economiza 20–30%" sem qualificar o período nem se era antes ou
 | Desconto obtido na logística | 12,7% | 18,2% | 22,7% |
 | Redução no desembolso total, já com a taxa | **8,2%** | 13,6% | **18,2%** |
 
+Referência: o aluno desembolsa R$ 2.200 por módulo comprando em cima da hora.
+
 Os 20–30% da banca correspondem ao desconto de bloqueio da **fase 3**. No primeiro ano, sem poder de negociação, a economia é menos da metade disso.
 
 **Encaminhamento:** parar de citar 20–30% como promessa genérica. Dizer o que vale em cada fase, e ser explícito de que o número cheio depende de volume que ainda não existe. É menos vistoso e é defensável.
@@ -56,20 +63,21 @@ O slide 9 do deck apresentado afirma:
 > **720** viagens organizadas por ano
 > **R$ 72 mil** por turma/ano só em taxas de serviço (média R$ 100)
 
-Os dois valores estão corretos em magnitude e errados em período. A conta é 100 alunos × 60% × 12 módulos = 720 viagens — mas esses 12 módulos acontecem ao longo dos **20 meses** do programa, não de 12.
+A conta 100 alunos × 60% × 12 módulos = 720 viagens está certa em magnitude, mas esses 12 módulos acontecem ao longo dos **20 meses** do programa, não de 12.
+
+Com a leitura correta — 100 alunos captados, cada um fazendo 0,6 módulo por mês:
 
 | | Apresentado | Correto |
 |---|---|---|
-| Viagens por turma/ano | 720 | **432** |
-| Receita de taxa por turma/ano | R$ 72 mil | **R$ 43,2 mil** |
-| Viagens no ciclo completo | — | 720 |
-| Receita de taxa no ciclo completo | — | R$ 72 mil |
+| Viagens no ano 1 (100 alunos) | 720 | **180** |
+| Receita de taxa no ano 1 | R$ 72 mil | **R$ 18 mil** |
+| Viagens no ciclo completo de 20 meses | — | 1.200 |
 
-O erro superestima a receita anual por turma em 67%.
+Além do período, o exemplo também aplicava 60% de adesão sobre os 100 alunos. Se os 100 já são os alunos captados, a adesão está contada duas vezes.
 
 ### O que isso afeta e o que não afeta
 
-**Não afeta a projeção da Sprint 4.** O modelo foi construído a partir do ritmo correto (0,6 módulo por aluno por mês) e nunca usou o número anualizado da banca. Além do período, o número também parte de uma turma de 100 alunos que nunca foi verificada — os dois problemas se somam.
+**Não afeta a projeção da Sprint 4.** O modelo foi construído a partir do ritmo correto (0,6 módulo por aluno por mês) e nunca usou o número anualizado da banca.
 
 **Afeta o que foi dito à banca.** Se algum avaliador dividir 12 módulos por 20 meses, encontra a inconsistência. Como a apresentação já ocorreu, não há o que corrigir no material apresentado.
 
@@ -88,6 +96,7 @@ Não é uma contradição — a banca já classificava o fee como "receita poten
 A banca tratou o financeiro em um único slide ilustrativo. A Sprint 4 substitui aquele slide por um modelo:
 
 - **O tempo entrou na conta.** A banca apresentava uma fotografia da operação madura. O modelo tem três fases, e a primeira é bem mais dura do que se dizia.
+- **A turma saiu da conta.** A unidade passou a ser o aluno captado, o que remove do modelo o tamanho da turma e a taxa de adesão.
 
 - **A comissão ganhou número.** A banca dizia "percentual sobre as tarifas negociadas". Agora são 6,4% do ticket, abertos por aéreo (4%), hotel (10%) e traslado (10%).
 - **O mercado ganhou tamanho.** TAM, SAM e SOM com memória de cálculo, ausentes da banca.

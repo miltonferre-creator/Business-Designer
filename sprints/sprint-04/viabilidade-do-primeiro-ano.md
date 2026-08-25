@@ -4,13 +4,18 @@ Este documento existe porque duas premissas da primeira versão da Sprint 4 não
 
 ## O que estava errado
 
-### 1. O "100 alunos por turma" nunca foi validado
+### 1. O "100 alunos" foi lido como tamanho de turma, e não é
 
-A premissa P5 estava registrada como "Padrão FDC · Validada". Não é.
+A premissa P5 estava registrada como "100 alunos por turma · Padrão FDC · Validada". Errado duas vezes.
 
-O número tem uma única origem no repositório: o bloco **"Exemplo ilustrativo"** de [atores-e-financeiro.md](../sprint-03/banca-de-modelagem/atores-e-financeiro.md), da Banca de Modelagem. Era um número redondo escolhido para ilustrar uma conta, e foi promovido a fato validado sem que ninguém tivesse confirmado o tamanho real de uma turma executiva da FDC.
+O número vem do bloco **"Exemplo ilustrativo"** de [atores-e-financeiro.md](../sprint-03/banca-de-modelagem/atores-e-financeiro.md), da Banca de Modelagem — e ali ele **não se refere a turma nenhuma**. O exemplo diz "100 alunos · 12 encontros", sem citar turmas, instituições ou taxa de adesão. É uma meta de captação.
 
-O erro importa mais do que parece, e a seção sobre tarifa de grupo abaixo mostra por quê.
+Duas correções decorrem disso:
+
+- **Turmas da FDC têm por volta de 40 alunos**, não 100 (informação do grupo).
+- **Os 100 alunos são a meta do ano 1**, somando todas as turmas e instituições. O modelo passou a ser dirigido por essa variável, e a turma saiu da conta de receita.
+
+Isso simplifica o modelo e elimina as duas premissas mais frágeis que ele tinha: tamanho de turma e taxa de adesão dentro dela.
 
 ### 2. O poder de negociação foi assumido desde o dia um
 
@@ -50,101 +55,96 @@ Teste feito contra as faixas da Velt, usando o volume aéreo do cenário tendenc
 
 | Ano | Volume aéreo | Faixa que esse volume abre | Comissão assumida |
 |---|---|---|---|
-| 1 | R$ 248 mil | Abaixo de R$ 250 mil — sem convênio | 3% |
-| 2 | R$ 1,26 mi | Acima de R$ 1 mi — 8% a 12% | 5% |
-| 3 | R$ 3,44 mi | Acima de R$ 1 mi — 8% a 12% | 6,4% |
+| 1 | R$ 518 mil | R$ 250–500 mil — entrada da faixa de 3–5% | 3% |
+| 2 | R$ 1,61 mi | Acima de R$ 1 mi — 8% a 12% | 5% |
+| 3 | R$ 3,64 mi | Acima de R$ 1 mi — 8% a 12% | 6,4% |
 
-O ano 1 fica logo abaixo do piso, o que confirma a fase de apoio na consolidadora. Os anos 2 e 3 usam comissões **abaixo** do que o volume permitiria — a projeção é conservadora de propósito, porque conquistar a faixa cheia leva tempo além de volume.
+A meta de 100 alunos coloca o ano 1 **exatamente na entrada da faixa de convênio**, o que sustenta os 3% assumidos. Os anos 2 e 3 usam comissões **abaixo** do que o volume permitiria: a projeção é conservadora de propósito, porque conquistar a faixa cheia leva tempo além de volume.
 
-## O problema que ninguém tinha visto: uma turma isolada não forma grupo
+Vale notar o contraste com a versão anterior, que modelava por turmas e chegava a R$ 248 mil de volume aéreo no ano 1 — abaixo do piso. A releitura dos 100 alunos como meta de captação anual muda essa conclusão: o ano 1 já entra na faixa negociável.
 
-Tarifa de grupo exige em torno de **10 passageiros na mesma rota e no mesmo voo**. As 5 condições obrigatórias mapeadas com a Velt já diziam "rota concentrada, 5 a 8 origens por turma". Faltou fazer a divisão.
+## A concentração é o que destrava a tarifa de grupo
 
-Quantos passageiros por rota uma turma isolada produz:
+Tarifa de grupo exige em torno de **10 passageiros na mesma rota e no mesmo voo**. As 5 condições mapeadas com a Velt já diziam "rota concentrada, 5 a 8 origens". Faltava fazer a divisão.
 
-| Turma | Adesão | 5 origens | 8 origens |
+Com a captação medida em alunos, a pergunta certa passa a ser: **quantos alunos a operação reúne no mesmo campus e na mesma data?**
+
+| Alunos no mesmo campus/data | 5 origens | 6 origens | 8 origens |
 |---|---|---|---|
-| 40 | 30% | 2,4 | 1,5 |
-| 40 | 60% | 4,8 | 3,0 |
-| 100 | 30% | 6,0 | 3,8 |
-| 100 | 60% | **12,0** | 7,5 |
+| 100 | 20,0 pax | 16,7 pax | 12,5 pax |
+| 50 | 10,0 pax | 8,3 pax | 6,2 pax |
+| 25 | 5,0 pax | 4,2 pax | 3,1 pax |
 
-**Só uma configuração forma grupo: turma de 100 com 60% de adesão e apenas 5 origens.** É exatamente onde a Banca de Modelagem estava — o modelo funcionava porque pousou na única célula favorável da tabela, com um número de alunos que nunca foi verificado.
+**O limiar prático fica entre 50 e 60 alunos por campus e data.** A meta de 100 alunos no ano 1, se concentrada, ultrapassa esse limiar com folga — e é isso que torna a fase 2 alcançável.
 
-Tamanho de turma necessário para que uma turma isolada forme grupo sozinha:
-
-| Adesão | 5 origens | 6 origens | 8 origens |
-|---|---|---|---|
-| 30% | 167 | 200 | 267 |
-| 45% | 111 | 133 | 178 |
-| 60% | 83 | 100 | 133 |
-| 70% | 71 | 86 | 114 |
+O contraste com a turma isolada é o ponto: uma turma de 40 alunos, mesmo com metade viajando, rende 20 alunos por data e cerca de 3 passageiros por rota. **Nenhuma turma sozinha forma grupo.** A concentração tem que vir de somar turmas no mesmo campus e data.
 
 ### O que isso muda no desenho do negócio
 
-A unidade de negociação **não pode ser a turma**. Precisa ser o **campus numa data**: várias turmas que chegam ao mesmo lugar no mesmo dia, somadas.
+A unidade de negociação **não pode ser a turma**. Precisa ser o **campus numa data**: alunos de várias turmas que chegam ao mesmo lugar no mesmo dia, somados.
 
-Quantas turmas precisam coincidir em campus e data:
+Quantos alunos concentrados são necessários para formar grupo:
 
-| Turma | Adesão | 5 origens | 8 origens |
-|---|---|---|---|
-| 40 | 30% | 5 | 7 |
-| 40 | 60% | 3 | 4 |
-| 60 | 60% | 2 | 3 |
-| 100 | 60% | 1 | 2 |
+| Origens principais | Alunos no mesmo campus/data |
+|---|---|
+| 5 origens | 50 alunos |
+| 6 origens | 60 alunos |
+| 8 origens | 80 alunos |
+
+Com 100 alunos captados no ano 1, o limiar é alcançável — desde que a captação seja concentrada e não pulverizada entre campi e datas.
 
 Consequências diretas:
 
-1. **A venda muda de alvo.** Não adianta uma turma numa escola. É preciso concentração — várias turmas do mesmo campus, com calendários que se sobrepõem.
-2. **O bloqueio é da Antévia, não da escola.** Se o volume vem de somar turmas, quem agrega é a plataforma. Isso fortalece o negócio: o ativo passa a ser nosso, não emprestado.
-3. **Existe um limiar de operação.** Abaixo de 3 a 5 turmas simultâneas no mesmo campus, a alavanca de grupo simplesmente não liga.
+1. **A venda muda de alvo.** Não adianta captar alunos dispersos. É preciso concentrá-los — mesmo campus, datas que se sobrepõem.
+2. **O bloqueio é da Antévia, não da escola.** Se o volume vem de somar alunos de várias turmas, quem agrega é a plataforma. O ativo passa a ser nosso, não emprestado.
+3. **A meta do ano 1 tem duas dimensões.** Captar 100 alunos é metade; a outra metade é que eles se concentrem o bastante para ligar a alavanca de grupo.
 
 ## O primeiro ano, refeito
 
-Premissas revistas: **turma de 40 alunos** (a validar, ver abaixo), adesão de **30%** no ano 1 — piloto sem prova social, com o aluno decidindo módulo a módulo —, **1 a 2 instituições** e 4 turmas ativas ao fim do ano.
+Premissa revista: **100 alunos captados até o fim do ano 1**, somando todas as turmas e instituições, com rampa trimestral de 25 → 50 → 75 → 100.
 
 | | Ano 1 | Ano 2 | Ano 3 | Total |
 |---|---:|---:|---:|---:|
-| Receita (tendencial) | **R$ 34.042** | R$ 221.616 | R$ 703.572 | **R$ 959.230** |
-| Viagens | 216 | 1.166 | 3.370 | 4.752 |
+| Alunos ativos ao fim do ano | 100 | 280 | 650 | — |
+| Receita (tendencial) | **R$ 70.920** | R$ 283.860 | R$ 744.163 | **R$ 1.098.943** |
+| Viagens | 450 | 1.494 | 3.564 | 5.508 |
 
 Comparação com a primeira versão da Sprint 4:
 
 | | Antes | Agora | Variação |
 |---|---:|---:|---:|
-| Receita do ano 1 | R$ 293.155 | R$ 34.042 | **−88%** |
-| Receita em 3 anos | R$ 4.577.731 | R$ 959.230 | **−79%** |
-| Aderentes no T12 | 2.520 | 576 | −77% |
-| Fatia do SAM no T12 | 24,0% | 5,5% | — |
+| Receita do ano 1 | R$ 293.155 | R$ 70.920 | **−76%** |
+| Receita em 3 anos | R$ 4.577.731 | R$ 1.098.943 | **−76%** |
+| Fatia do SAM no T12 | 24,0% | 6,2% | — |
 
-Os 24% do SAM em três anos eram um número que não se defendia. Os 5,5% se defendem.
+Os 24% do SAM em três anos não se defendiam. Os 6,2% se defendem.
 
 ### O que o ano 1 significa na prática
 
-**R$ 34 mil de receita não pagam ninguém.** É menos de R$ 3 mil por mês. O ano 1 não comporta equipe contratada, escritório ou investimento em tecnologia relevante — ou os sócios operam a coisa com as próprias mãos, ou é preciso capital para atravessar.
+**R$ 71 mil de receita não pagam uma equipe.** É menos de R$ 6 mil por mês. O ano 1 não comporta equipe contratada, escritório ou investimento em tecnologia relevante — ou os sócios operam a coisa com as próprias mãos, ou é preciso capital para atravessar.
 
 Isso não é defeito da projeção. É a descrição correta de um negócio que precisa de volume para ter margem e não tem volume no começo. A Sprint 5 vai dimensionar quanto custa atravessar esse período, e a Sprint 6 vai dizer quanto capital isso exige.
 
 ### O ano 1 não é sobre receita
 
-Se o ano 1 rende R$ 34 mil, ele não pode ser medido por receita. Ele existe para produzir três ativos que destravam a fase 2:
+Se o ano 1 rende R$ 71 mil, ele não pode ser medido por receita. Ele existe para produzir três ativos que destravam a fase 2:
 
 | Ativo | Para que serve |
 |---|---|
-| Prova de execução | Um ciclo completo entregue permite subir a adesão de 30% para 45% |
-| Volume acumulado | Cruzar R$ 1 mi/ano em aéreo abre a faixa de 8–12% |
-| Concentração de campus | Chegar a 3–5 turmas simultâneas liga a alavanca de grupo |
+| Prova de execução | Um ciclo entregue vira referência para captar os alunos do ano 2 |
+| Volume acumulado | Cruzar R$ 1 mi/ano em aéreo abre a faixa de 8–12% de comissão |
+| Concentração de campus | Reunir 50–60 alunos numa data liga a tarifa de grupo |
 
-A métrica do ano 1 é **turmas simultâneas no mesmo campus**, não faturamento.
+A métrica do ano 1 é **alunos captados e concentração por campus**, não faturamento.
 
 ## O que ainda precisa ser validado, em ordem
 
 | # | Premissa | Valor usado | Impacto | Como validar |
 |---|---|---|---|---|
-| 1 | **Tamanho da turma** | 40 (a validar) | Define se a alavanca de grupo é viável | Secretaria FDC — é uma pergunta de dois minutos |
-| 2 | Turmas simultâneas por campus e data | 3–5 necessárias | Define quando a fase 2 começa | Calendário acadêmico do campus |
-| 3 | Adesão no ano 1 sem prova social | 30% | Define a receita do piloto | Aluno-executivo viajante (H6) |
+| 1 | **Alunos captados no ano 1** | 100 | É a variável dominante (±30%) | Coordenação de campus com fluxo de fora |
+| 2 | Concentração por campus e data | 50–60 alunos | Define quando a tarifa de grupo liga | Calendário acadêmico dos campi |
+| 3 | Disposição a pagar (H6) | R$ 100/módulo | Responde por 63% da receita no ano 1 | Aluno-executivo viajante |
 | 4 | Desconto real da antecipação aos 90 dias | 13% no aéreo | É a única alavanca do ano 1 | Cotação com consolidadora |
 | 5 | Repasse da consolidadora ao parceiro | 3% | É a receita variável do ano 1 | Conversa com a Velt |
 
-A primeira é a mais barata de resolver e a que mais muda o modelo. O grupo tem alunos da FDC: basta perguntar à secretaria quantos alunos tem uma turma do programa executivo. Se a resposta for 100 e não 40, a alavanca de grupo passa a funcionar com uma turma isolada, e boa parte da dificuldade descrita aqui diminui.
+A primeira é a que o grupo mais controla — e também a que não tem nenhuma referência externa. Nenhuma das três entrevistas da Sprint 1 tratou de ciclo de captação.

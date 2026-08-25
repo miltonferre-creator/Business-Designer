@@ -21,7 +21,7 @@ A escola não desembolsa. Ela empresta o CNPJ e o calendário, indica a Antévia
 
 ## Como será vendido
 
-1. **Contrato por turma, não por aluno.** A unidade comercial é a turma — 40 alunos (**a validar**), 12 módulos, ciclo de 20 meses. Uma negociação abre 20 meses de receita recorrente.
+1. **A meta é captar alunos, não turmas.** O ano 1 tem meta de 100 alunos captados, somando todas as turmas e instituições. Cada aluno gera 12 módulos ao longo de 20 meses — receita recorrente por quase dois anos.
 2. **Distribuição pelo canal da escola.** A oferta chega ao aluno no ato da matrícula, junto com o calendário. Custo de aquisição próximo de zero por aluno.
 3. **Adesão voluntária.** O aluno decide módulo a módulo. Nada é imposto — condição da escola para indicar (ver [personas.md](../sprint-03/personas.md)).
 
@@ -51,17 +51,15 @@ A dor não é universal: concentra-se em Nova Lima, São Paulo e Rio (achado das
 
 ### SOM — 3 anos, cenário tendencial
 
-| Fim do | Turmas ativas | Alunos aderentes | Receita anualizada | % do SAM |
-|---|---|---|---|---|
-| Ano 1 | 4 | 48 | R$ 54 mil | 0,5% |
-| Ano 2 | 12 | 216 | R$ 295 mil | 2,1% |
-| Ano 3 | 24 | 576 | R$ 866 mil | **5,5%** |
+| Fim do | Alunos ativos | Receita anualizada | % do SAM |
+|---|---|---|---|
+| Ano 1 | 100 | R$ 113 mil | 1,0% |
+| Ano 2 | 280 | R$ 383 mil | 2,7% |
+| Ano 3 | 650 | R$ 977 mil | **6,2%** |
 
-Chegar a 5,5% do SAM em três anos é uma ambição defensável para um negócio que depende de vender para instituições, uma a uma.
+Chegar a 6,2% do SAM em três anos é defensável para um negócio que capta aluno a aluno, pelo canal da escola.
 
-A versão anterior deste documento projetava 24% do SAM. Era um número que não se sustentava: pressupunha turma de 100 alunos e adesão de 60% desde o primeiro trimestre. O racional da revisão está em [viabilidade-do-primeiro-ano.md](viabilidade-do-primeiro-ano.md).
-
-O gargalo continua sendo o canal: fechado o contrato com a coordenação, a oferta alcança a turma inteira de uma vez. Mas o ano 1 é lento por natureza — 1 a 2 instituições, sem prova social e sem poder de barganha.
+A primeira versão deste documento projetava 24% do SAM, apoiada em turma de 100 alunos e adesão de 60% desde o primeiro trimestre. Não se sustentava. O racional da revisão está em [viabilidade-do-primeiro-ano.md](viabilidade-do-primeiro-ano.md).
 
 ## Ticket logístico por módulo
 

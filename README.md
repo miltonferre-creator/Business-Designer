@@ -78,29 +78,29 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 - **Nada é imposto ao aluno.** Condição da escola para indicar o serviço; o aluno mantém companhia, voo e milhas.
 - **O preço se ancora na economia entregue,** mas a economia cresce com o tempo. O aluno recebe R$ 180 líquidos por módulo no ano 1 e R$ 400 no ano 3 — retorno de 1,8× subindo para 4× (Sprint 4).
 - **No primeiro ano não há poder de negociação.** A economia vem só da antecipação, que é a curva tarifária pública e não exige negociar com fornecedor. A compra é feita através de uma consolidadora parceira; bloqueio próprio e convênio vêm com volume (Sprint 4).
-- **A unidade de negociação é o campus numa data, não a turma.** Uma turma isolada não reúne os 10 passageiros por rota que a tarifa de grupo exige — são necessárias 3 a 5 turmas simultâneas no mesmo campus (Sprint 4).
+- **A unidade de negociação é o campus numa data, não a turma.** A tarifa de grupo exige 10 passageiros por rota, o que pede 50 a 60 alunos concentrados numa mesma data. Nenhuma turma isolada chega lá — a captação precisa ser concentrada (Sprint 4).
 
 ## Números do negócio (cenário tendencial, 3 anos)
 
 | Indicador | Valor |
 |---|---|
-| Receita acumulada | R$ 959 mil |
-| Receita do ano 1 | R$ 34 mil |
-| Economia devolvida aos alunos | R$ 1,74 mi |
-| Viagens organizadas | 4.752 |
-| Aderentes no T12 | 576 (5,5% do SAM) |
+| Receita acumulada | R$ 1,10 mi |
+| Receita do ano 1 | R$ 70,9 mil |
+| Economia devolvida aos alunos | R$ 1,95 mi |
+| Viagens organizadas | 5.508 |
+| Alunos ativos no T12 | 650 (6,2% do SAM) |
 
-Faixa dos cenários: R$ 348 mil (pessimista) · R$ 959 mil (tendencial) · R$ 2,01 mi (otimista). Memória de cálculo em [`sprints/sprint-04/`](sprints/sprint-04/).
+Faixa dos cenários: R$ 551 mil (pessimista) · R$ 1,10 mi (tendencial) · R$ 1,83 mi (otimista). Memória de cálculo em [`sprints/sprint-04/`](sprints/sprint-04/).
 
-O primeiro ano rende R$ 34 mil — menos de R$ 3 mil por mês. Não paga equipe. Quanto custa atravessar esse período é a pergunta da Sprint 5.
+A meta do ano 1 é **captar 100 alunos**, somando todas as turmas e instituições. Isso rende R$ 71 mil — menos de R$ 6 mil por mês, que não paga equipe. Quanto custa atravessar esse período é a pergunta da Sprint 5.
 
 ## Próximos passos
 
 - Registrar o feedback da Banca de Modelagem em [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/)
-- Parar de usar "720 viagens / R$ 72 mil por turma/ano" do deck da banca — o valor é do ciclo de 20 meses e parte de uma turma de 100 alunos nunca verificada ([conferência](sprints/sprint-04/consistencia-com-a-banca.md))
-- **Confirmar o tamanho de uma turma executiva com a secretaria da FDC** — a premissa mais barata de validar e a que mais move o modelo (+50% de receita)
-- Entrevistar coordenação de campus com fluxo de fora para validar o ritmo de contratação de turmas e quantas turmas coincidem em campus e data
+- Parar de usar "720 viagens / R$ 72 mil por turma/ano" do deck da banca — com 100 alunos captados são 180 viagens no ano 1, não 720 ([conferência](sprints/sprint-04/consistencia-com-a-banca.md))
+- Validar a meta de captação de 100 alunos no ano 1 com coordenação de campus com fluxo de fora — é a variável dominante do modelo (±30%)
+- Conferir, no calendário acadêmico dos campi, se dá para concentrar 50 a 60 alunos numa mesma data — é o que liga a tarifa de grupo
 - Validar H2 (tempo por encontro) e H6 (disposição a pagar R$ 50–150) com alunos-executivos
-- Iniciar a Sprint 5: custos, despesas, investimentos, macroprocesso e DFC de 3 anos — respondendo quanto capital é preciso para atravessar o primeiro ano
+- Iniciar a Sprint 5: custos, despesas, investimentos, macroprocesso e DFC de 3 anos — respondendo quanto capital é preciso para atravessar um ano 1 de R$ 71 mil
 - Adicionar os PDFs complementares da Sprint 1 (resumos, mapa de contexto, hipóteses), se localizados
 - Acompanhar o registro formal da marca no INPI
