@@ -4,20 +4,24 @@ A Banca de Modelagem foi apresentada com o deck registrado em [`../sprint-03/ban
 
 O objetivo é prático: garantir que a Sprint 4 não contradiga o que o grupo já defendeu em público e, onde contradiz, deixar claro qual das duas versões vale.
 
+> **Atualizado após a revisão do modelo.** A Sprint 4 foi refeita para tratar o primeiro ano com realismo — ver [viabilidade-do-primeiro-ano.md](viabilidade-do-primeiro-ano.md). Com isso, **o número de divergências em relação à banca aumentou**: o que antes conferia em quatro pontos agora diverge, porque a banca descrevia uma operação madura como se fosse o ponto de partida.
+
 ## Quadro de conferência
 
-| Afirmação na banca | Sprint 4 | Situação |
+| Afirmação na banca | Sprint 4 (revista) | Situação |
 |---|---|---|
-| Turma de 100 alunos · 12 encontros | Igual | Confere |
-| Adesão de 60% (faixa 50–70%) | Igual, e a faixa vira os cenários | Confere |
-| Taxa de R$ 50–150, média R$ 100 | R$ 100 no tendencial; R$ 50 e R$ 150 nos extremos | Confere |
-| Bloqueio de grupo com 20–30% de desconto | 22,7% de desconto médio | Confere |
-| Três fontes de receita | Duas modeladas; fee da escola zerado | Confere, com ressalva |
+| 12 encontros por programa | Igual | Confere |
 | Programa de 18–24 meses, módulos a cada 4–6 semanas | Ciclo de 20 meses, 0,6 módulo/mês | Confere |
-| "Compra a menos de 7 dias custa 2–3× mais" | Modelo usa 1,37× no aéreo | **Escalas diferentes** |
-| "Aluno economiza 20–30%" | 22,7% na logística, 18,2% no bolso | **Reconciliar** |
-| "720 viagens organizadas por ano" | 720 no ciclo de 20 meses | **Erro apresentado** |
-| "R$ 72 mil por turma/ano" | R$ 72 mil por ciclo; R$ 43,2 mil/ano | **Erro apresentado** |
+| Taxa de R$ 50–150, média R$ 100 | R$ 100 nas três fases | Confere |
+| Três fontes de receita | Duas modeladas; fee da escola zerado | Confere, com ressalva |
+| **Turma de 100 alunos** | **40, e marcado como a validar** | **Divergente** |
+| **Adesão de 60% (faixa 50–70%)** | **30% no ano 1, 60% só no ano 3** | **Divergente** |
+| **Bloqueio de grupo com 20–30% de desconto** | **Só na fase 3; ano 1 sem bloqueio** | **Divergente** |
+| **"Aluno economiza 20–30%"** | **8,2% no ano 1; 18,2% no ano 3** | **Divergente** |
+| "Compra a menos de 7 dias custa 2–3× mais" | Modelo usa 1,22× no aéreo do ano 1 | Escalas diferentes |
+| "720 viagens / R$ 72 mil por turma/ano" | Ciclo de 20 meses, e com turma de 100 | **Erro apresentado** |
+
+Quatro divergências têm a mesma raiz: **a banca descreveu a operação madura e a apresentou como se valesse desde o começo.** Nada do que foi dito é impossível — é o ponto de chegada, não o de partida.
 
 ## 1. O "2–3× mais caro" e o 1,37× do modelo
 
@@ -30,20 +34,20 @@ As duas coisas não se contradizem, porque medem comparações diferentes:
 
 O 2–3× é real, mas descreve a cauda. Se o modelo o adotasse como base, a economia por módulo saltaria e a receita de comissão junto. A projeção ficaria maior e mais frágil.
 
-**Encaminhamento:** manter o 2–3× para descrever o problema e usar o 22,7% para descrever a entrega. Não usar o 2–3× como base de cálculo.
+**Encaminhamento:** manter o 2–3× para descrever o problema e usar o desconto real de cada fase para descrever a entrega. Não usar o 2–3× como base de cálculo.
 
-## 2. "Economiza 20–30%" contra os 18,2% do modelo
+## 2. "Economiza 20–30%" contra o que o modelo entrega
 
-Os dois números estão certos e medem coisas distintas:
+A banca disse "economiza 20–30%" sem qualificar o período nem se era antes ou depois da taxa. O modelo revisto separa as duas coisas e mostra que o número só se realiza no fim do horizonte:
 
-| O que se mede | Valor |
-|---|---|
-| Desconto obtido na logística (aéreo, hotel, traslado) | **22,7%** |
-| Redução no desembolso total do aluno, já pagando a taxa de R$ 100 | **18,2%** |
+| | Fase 1 (ano 1) | Fase 2 (ano 2) | Fase 3 (ano 3) |
+|---|---|---|---|
+| Desconto obtido na logística | 12,7% | 18,2% | 22,7% |
+| Redução no desembolso total, já com a taxa | **8,2%** | 13,6% | **18,2%** |
 
-A banca disse "economiza 20–30%" sem qualificar se era antes ou depois da taxa de serviço. O modelo separa as duas medidas.
+Os 20–30% da banca correspondem ao desconto de bloqueio da **fase 3**. No primeiro ano, sem poder de negociação, a economia é menos da metade disso.
 
-**Encaminhamento:** passar a dizer "20–30% na logística; 18,2% no bolso, já descontada a nossa taxa". A versão qualificada é mais forte, não mais fraca — mostra que a taxa já está dentro da conta e não é um custo escondido que aparece depois.
+**Encaminhamento:** parar de citar 20–30% como promessa genérica. Dizer o que vale em cada fase, e ser explícito de que o número cheio depende de volume que ainda não existe. É menos vistoso e é defensável.
 
 ## 3. O erro de período que foi ao ar
 
@@ -65,7 +69,7 @@ O erro superestima a receita anual por turma em 67%.
 
 ### O que isso afeta e o que não afeta
 
-**Não afeta a projeção da Sprint 4.** O modelo foi construído a partir do ritmo correto (0,6 módulo por aluno por mês) e nunca usou o número anualizado da banca. Os R$ 4,58 milhões do cenário tendencial permanecem válidos.
+**Não afeta a projeção da Sprint 4.** O modelo foi construído a partir do ritmo correto (0,6 módulo por aluno por mês) e nunca usou o número anualizado da banca. Além do período, o número também parte de uma turma de 100 alunos que nunca foi verificada — os dois problemas se somam.
 
 **Afeta o que foi dito à banca.** Se algum avaliador dividir 12 módulos por 20 meses, encontra a inconsistência. Como a apresentação já ocorreu, não há o que corrigir no material apresentado.
 
@@ -82,6 +86,8 @@ Não é uma contradição — a banca já classificava o fee como "receita poten
 ## O que a Sprint 4 acrescenta ao que foi apresentado
 
 A banca tratou o financeiro em um único slide ilustrativo. A Sprint 4 substitui aquele slide por um modelo:
+
+- **O tempo entrou na conta.** A banca apresentava uma fotografia da operação madura. O modelo tem três fases, e a primeira é bem mais dura do que se dizia.
 
 - **A comissão ganhou número.** A banca dizia "percentual sobre as tarifas negociadas". Agora são 6,4% do ticket, abertos por aéreo (4%), hotel (10%) e traslado (10%).
 - **O mercado ganhou tamanho.** TAM, SAM e SOM com memória de cálculo, ausentes da banca.

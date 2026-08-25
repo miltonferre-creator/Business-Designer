@@ -20,50 +20,56 @@ Levantamento das alternativas que o aluno-executivo usa ou poderia usar. Nenhuma
 
 ### Ancoragem no valor entregue
 
-O preço não foi fixado por disposição a pagar declarada. Foi ancorado na economia mensurável:
+O preço não foi fixado por disposição a pagar declarada. Foi ancorado na economia mensurável — **que muda conforme o poder de negociação evolui**:
 
-| | Por módulo |
-|---|---|
-| Economia entregue ao aluno | R$ 500 |
-| Taxa de serviço Antévia | R$ 100 |
-| **Economia líquida no bolso do aluno** | **R$ 400** |
-| **Retorno sobre a taxa** | **4×** |
+| | Fase 1 (ano 1) | Fase 2 (ano 2) | Fase 3 (ano 3) |
+|---|---|---|---|
+| Economia bruta por módulo | R$ 280 | R$ 400 | R$ 500 |
+| Taxa de serviço Antévia | R$ 100 | R$ 100 | R$ 100 |
+| **Economia líquida do aluno** | **R$ 180** | **R$ 300** | **R$ 400** |
+| **Retorno sobre a taxa** | **1,8×** | **3,0×** | **4,0×** |
 
-O argumento de venda é aritmético: *paga R$ 100, recebe R$ 400 de volta e não precisa organizar nada.* Um preço que se paga com a própria entrega dispensa a discussão de disposição a pagar — desde que a economia se confirme.
+O argumento de venda muda de força ao longo do tempo. No ano 3 é aritmético e forte: *paga R$ 100, recebe R$ 400 de volta.* **No ano 1 é apertado:** paga R$ 100 e recebe R$ 180 — o serviço se paga, mas com folga bem menor.
+
+Isso tem uma consequência comercial direta: **no primeiro ano a venda não se sustenta só no desconto.** Ela se apoia no tempo devolvido ao aluno e em não precisar orquestrar três plataformas por módulo. O desconto vira argumento principal apenas quando o volume abre a tarifa de grupo.
+
+A versão anterior deste documento apresentava os 4× como se estivessem disponíveis desde o primeiro dia. Não estão.
 
 ### Posicionamento
 
-R$ 100 equivale a **5,9% do ticket logístico** de R$ 1.700. Fica acima da agência tradicional (fee por bilhete, sem serviço) e dentro do piso da faixa de concierge premium (5–15%), com uma diferença: aqui o serviço cobre passagem, hotel, traslado e reembolso de todos os módulos, não uma viagem avulsa.
+R$ 100 equivale a **5,2% do ticket logístico** na fase 1 e 5,9% na fase 3. Fica acima da agência tradicional (fee por bilhete, sem serviço) e dentro do piso da faixa de concierge premium (5–15%), com uma diferença: aqui o serviço cobre passagem, hotel, traslado e reembolso de todos os módulos, não uma viagem avulsa.
 
-## Segunda fonte de receita: comissão sobre o bloqueio
+## Segunda fonte de receita: comissão sobre o volume
 
-Paga pelos fornecedores, não pelo aluno. Não aparece no desembolso dele.
+Paga pelos fornecedores, não pelo aluno. Não aparece no desembolso dele. E também evolui por fase, porque comissão é função de volume.
 
-| Componente | Valor transacionado | Comissão | Receita |
+| Fase | Como compramos | Comissão média | Em R$ por viagem |
 |---|---|---|---|
-| Aéreo | R$ 1.020 | 4% | R$ 40,80 |
-| Hotel | R$ 500 | 10% | R$ 50,00 |
-| Traslado | R$ 180 | 10% | R$ 18,00 |
-| **Total** | **R$ 1.700** | **6,4%** | **R$ 108,80** |
+| 1 (ano 1) | Repasse da consolidadora parceira | 3% | R$ 57,60 |
+| 2 (ano 2) | Bloqueios pontuais nas rotas que concentram | 5% | R$ 90,00 |
+| 3 (ano 3) | Convênio próprio | 6,4% | R$ 108,80 |
 
-As faixas seguem a prática de mercado apurada com a Velt: aéreo remunera pouco e por volume, hotelaria remunera bem por comissão direta.
+As faixas seguem a prática apurada com a Velt: convênio de R$ 250–500 mil/ano rende 3–5%; acima de R$ 1 mi/ano, 8–12%. As comissões usadas ficam **abaixo** do que o volume de cada ano permitiria — a projeção é conservadora de propósito.
+
+No ano 1 a Antévia não negocia com companhia aérea nenhuma. Ela se apoia no convênio que a consolidadora já tem e recebe parte da comissão dela. É o caminho padrão de quem começa sem volume.
 
 ## Receita total por viagem
 
-| Fonte | Valor | Quem paga |
-|---|---|---|
-| Taxa de serviço | R$ 100,00 | Aluno |
-| Comissão sobre bloqueio | R$ 108,80 | Fornecedores |
-| **Total** | **R$ 208,80** | |
+| Fonte | Fase 1 | Fase 2 | Fase 3 | Quem paga |
+|---|---|---|---|---|
+| Taxa de serviço | R$ 100,00 | R$ 100,00 | R$ 100,00 | Aluno |
+| Comissão | R$ 57,60 | R$ 90,00 | R$ 108,80 | Fornecedores |
+| **Total** | **R$ 157,60** | **R$ 190,00** | **R$ 208,80** | |
+| Peso da taxa na receita | 63% | 53% | 48% | |
 
-Take rate efetivo de 12,3% sobre o volume transacionado, dos quais 6,4% vêm dos fornecedores. A dependência da taxa cobrada do aluno é de menos da metade da receita — o que reduz o risco de H6 derrubar o modelo.
+A dependência da taxa cobrada do aluno **cai** conforme o negócio amadurece. No ano 1, quando o poder de negociação é nulo, é ela que sustenta a receita — o que torna a validação da H6 mais urgente, não menos.
 
 ## O que isso faz com a H6
 
 A hipótese **H6 — "o aluno pagaria R$ 50–150 por encontro"** continua **a verificar**. A precificação a trata de duas formas:
 
 1. **R$ 100 é o ponto médio da faixa da hipótese.** Se a validação com alunos apontar para baixo, R$ 50 é o cenário pessimista já modelado.
-2. **A taxa responde por 48% da receita por viagem.** Mesmo que ela caia pela metade, o negócio perde 24% da receita — não deixa de existir.
+2. **O peso da taxa cai com o tempo.** No ano 3 ela responde por 48% da receita por viagem; no ano 1, por 63%. Se ela cair pela metade, o negócio perde cerca de um quarto da receita de três anos — mas o ano 1, que já é frágil, sofre mais.
 
 A validação de H6 continua sendo a prioridade de campo. O que mudou é que ela deixou de ser uma pergunta aberta e virou uma faixa testável, com o cenário pessimista já precificado.
 

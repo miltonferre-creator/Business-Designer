@@ -41,7 +41,7 @@ sprints/
 │   ├── entregaveis/          Sprint_03_Kairos_Antevia.pptx ✓
 │   └── banca-de-modelagem/   Pitch de 10 min: jornada, diferenciais, atores e financeiro
 │       └── entregaveis/      Banca_Modelagem_Kairos_Antevia.pptx ✓
-└── sprint-04/                Viabilidade: mercado, preço, cenários e conferência com a banca
+└── sprint-04/                Viabilidade: mercado, preço, cenários e o desafio do primeiro ano
     └── entregaveis/          Sprint_04_Kairos_Antevia.pptx + modelo de receitas (XLSX) ✓
 marca/                        Identidade visual "Minimal Future" e diretrizes de escrita
 └── assets/                   antevia_logo.png, antevia_appicon.png ✓
@@ -65,36 +65,42 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 | Como o preço foi definido | [`sprints/sprint-04/precificacao.md`](sprints/sprint-04/precificacao.md) |
 | Quanto o negócio fatura e em que cenários | [`sprints/sprint-04/cenarios-de-receita.md`](sprints/sprint-04/cenarios-de-receita.md) |
 | De onde vem cada número | [`sprints/sprint-04/premissas.md`](sprints/sprint-04/premissas.md) |
+| Por que o primeiro ano é o mais difícil | [`sprints/sprint-04/viabilidade-do-primeiro-ano.md`](sprints/sprint-04/viabilidade-do-primeiro-ano.md) |
 | Se a Sprint 4 bate com o que foi à banca | [`sprints/sprint-04/consistencia-com-a-banca.md`](sprints/sprint-04/consistencia-com-a-banca.md) |
 | A identidade visual | [`marca/identidade-visual.md`](marca/identidade-visual.md) |
 
 ## Decisões-chave (resumo)
 
 - **Concierge, não marketplace.** O produto é a função "gestor de viagens do aluno", que hoje não existe — não uma plataforma de compra.
-- **Modelo comercial já existente.** Bloqueio de grupo: escola (CNPJ) + turma + datas fixas do calendário. Não é preciso inventar o produto comercial.
-- **Números calibrados por entrevistas.** Adesão realista de 50–70% (não 100%), desconto de bloqueio de 20–30% (não 40–50%), meta de custo de −15% a −25%.
+- **Modelo comercial já existente — mas não desde o dia um.** O bloqueio de grupo é praticado no mercado e não precisa ser inventado. Só que ele exige volume: no início a compra passa por uma consolidadora parceira.
+- **Números calibrados por entrevistas.** Desconto de bloqueio de 20–30% (não 40–50%) e adesão de 50–70% — faixas que descrevem a **operação madura**. O ano 1 trabalha com 30% de adesão e sem bloqueio.
 - **A dor não é universal.** Concentra-se em campi com fluxo de alunos de fora (Nova Lima, SP, Rio) — variável central de escopo.
 - **Nada é imposto ao aluno.** Condição da escola para indicar o serviço; o aluno mantém companhia, voo e milhas.
-- **O preço se ancora na economia entregue.** R$ 100 por módulo contra R$ 500 de economia — o aluno recebe R$ 400 líquidos de volta. Isso tira a precificação da disposição a pagar declarada (Sprint 4).
-- **O gargalo é assinar turmas, não convencer alunos.** A análise de sensibilidade aponta o ritmo de contratação (±30%) à frente da adesão (±17%) — invertendo a prioridade que o grupo vinha adotando (Sprint 4).
+- **O preço se ancora na economia entregue,** mas a economia cresce com o tempo. O aluno recebe R$ 180 líquidos por módulo no ano 1 e R$ 400 no ano 3 — retorno de 1,8× subindo para 4× (Sprint 4).
+- **No primeiro ano não há poder de negociação.** A economia vem só da antecipação, que é a curva tarifária pública e não exige negociar com fornecedor. A compra é feita através de uma consolidadora parceira; bloqueio próprio e convênio vêm com volume (Sprint 4).
+- **A unidade de negociação é o campus numa data, não a turma.** Uma turma isolada não reúne os 10 passageiros por rota que a tarifa de grupo exige — são necessárias 3 a 5 turmas simultâneas no mesmo campus (Sprint 4).
 
 ## Números do negócio (cenário tendencial, 3 anos)
 
 | Indicador | Valor |
 |---|---|
-| Receita acumulada | R$ 4,58 mi |
-| Economia devolvida aos alunos | R$ 8,77 mi |
-| Viagens organizadas | 21.924 |
-| Turmas ativas no T12 | 42 |
+| Receita acumulada | R$ 959 mil |
+| Receita do ano 1 | R$ 34 mil |
+| Economia devolvida aos alunos | R$ 1,74 mi |
+| Viagens organizadas | 4.752 |
+| Aderentes no T12 | 576 (5,5% do SAM) |
 
-Faixa dos cenários: R$ 1,42 mi (pessimista) · R$ 4,58 mi (tendencial) · R$ 11,96 mi (otimista). Memória de cálculo em [`sprints/sprint-04/`](sprints/sprint-04/).
+Faixa dos cenários: R$ 348 mil (pessimista) · R$ 959 mil (tendencial) · R$ 2,01 mi (otimista). Memória de cálculo em [`sprints/sprint-04/`](sprints/sprint-04/).
+
+O primeiro ano rende R$ 34 mil — menos de R$ 3 mil por mês. Não paga equipe. Quanto custa atravessar esse período é a pergunta da Sprint 5.
 
 ## Próximos passos
 
 - Registrar o feedback da Banca de Modelagem em [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/)
-- Usar 432 viagens e R$ 43,2 mil por turma/ano da Sprint 5 em diante — o deck da banca foi apresentado com os valores do ciclo de 20 meses rotulados como anuais ([conferência](sprints/sprint-04/consistencia-com-a-banca.md))
-- Entrevistar coordenação de campus com fluxo de fora para validar o ritmo de contratação de turmas — variável de maior impacto na projeção
+- Parar de usar "720 viagens / R$ 72 mil por turma/ano" do deck da banca — o valor é do ciclo de 20 meses e parte de uma turma de 100 alunos nunca verificada ([conferência](sprints/sprint-04/consistencia-com-a-banca.md))
+- **Confirmar o tamanho de uma turma executiva com a secretaria da FDC** — a premissa mais barata de validar e a que mais move o modelo (+50% de receita)
+- Entrevistar coordenação de campus com fluxo de fora para validar o ritmo de contratação de turmas e quantas turmas coincidem em campus e data
 - Validar H2 (tempo por encontro) e H6 (disposição a pagar R$ 50–150) com alunos-executivos
-- Iniciar a Sprint 5: custos, despesas, investimentos, macroprocesso e DFC de 3 anos
+- Iniciar a Sprint 5: custos, despesas, investimentos, macroprocesso e DFC de 3 anos — respondendo quanto capital é preciso para atravessar o primeiro ano
 - Adicionar os PDFs complementares da Sprint 1 (resumos, mapa de contexto, hipóteses), se localizados
 - Acompanhar o registro formal da marca no INPI
