@@ -40,10 +40,10 @@ Faixa dos três cenários: **R$ 551 mil** (pessimista) · **R$ 1,10 mi** (tenden
 
 São dois arquivos com **os mesmos 11 slides**, diferentes apenas no campo de anotações:
 
-- ✅ [`entregaveis/Sprint_04_Kairos_Antevia.pptx`](entregaveis/Sprint_04_Kairos_Antevia.pptx) — **para apresentar.** As anotações trazem o texto corrido a ser falado, sem orientações. 1.100 palavras, cerca de 8 minutos.
-- ✅ [`entregaveis/Sprint_04_Kairos_Antevia_Notas_Detalhadas.pptx`](entregaveis/Sprint_04_Kairos_Antevia_Notas_Detalhadas.pptx) — **para estudar antes.** As anotações explicam de onde vem cada número do slide, como ler cada tabela e o que responder às perguntas prováveis. 3.382 palavras.
+- ✅ [`entregaveis/Sprint_04_Kairos_Antevia.pptx`](entregaveis/Sprint_04_Kairos_Antevia.pptx) — **versão curta, cabe nos 10 minutos.** 1.100 palavras, cerca de 8 minutos falados.
+- ✅ [`entregaveis/Sprint_04_Kairos_Antevia_Notas_Detalhadas.pptx`](entregaveis/Sprint_04_Kairos_Antevia_Notas_Detalhadas.pptx) — **versão completa, com a origem de cada número.** 3.161 palavras, cerca de 24 minutos falados.
 
-Use o segundo para preparar e o primeiro na hora.
+Os dois trazem apenas o texto a ser dito, sem orientações de palco. A versão completa abre as contas em voz alta — o ticket de R$ 1.920 decomposto em aéreo, hotel e traslado; os 6,4% como média ponderada de 4% no aéreo e 10% em hotel e traslado; os 42.000 alunos como 1,4 mi × 12% × 25%. Não cabe nos 10 minutos do Squeeze: serve para ensaiar e para responder arguição.
 - ✅ [`entregaveis/Antevia_Modelo_Receitas.xlsx`](entregaveis/Antevia_Modelo_Receitas.xlsx) — modelo com premissas isoladas para simulação, 12 trimestres, 3 cenários e sensibilidade
 
 Cobertura dos itens pedidos no Encontro 5:
