@@ -29,6 +29,7 @@ O grupo adota o cenário **Moderado** como base de apresentação. O racional es
 - [`estrutura-de-pessoal.md`](estrutura-de-pessoal.md) — governança com os cinco sócios, diretoria, conselho e o quadro operacional ano a ano
 - [`custos-despesas-investimentos.md`](custos-despesas-investimentos.md) — investimento inicial, custos variáveis, custos fixos, despesas administrativas e comerciais, linha a linha
 - [`estrategia-comercial.md`](estrategia-comercial.md) — lançamento, aquisição e retenção; quem prospecta e quanto custa captar um aluno
+- [`alavancas-nao-modeladas.md`](alavancas-nao-modeladas.md) — cartão, financiamento e milhas: o que valem, por que ficam fora da projeção e o que fazer com elas
 - [`dfc-e-necessidade-de-capital.md`](dfc-e-necessidade-de-capital.md) — **a DFC completa**, o ano 1 mês a mês, o ponto de equilíbrio e o pedido de capital em três tranches
 
 ## As três decisões desta sprint
@@ -50,6 +51,7 @@ Com elas, o ano 5 fica **16,1% acima do ponto de equilíbrio** e o capital neces
 - **O investimento do ano 2 não gera receita — evita custo.** A plataforma leva a produtividade do concierge de 60 para 150 viagens por mês. Sem ela, o ano 5 precisaria de 10 concierges em vez de 7.
 - **Os sócios são os maiores investidores do negócio.** O trabalho não remunerado deles soma R$ 1,5 milhão em cinco anos — quase três vezes o capital pedido.
 - **O negócio depende de volume e não tem versão pequena.** No cenário conservador, com metade dos alunos, o prejuízo se acumula e o capital necessário sobe para R$ 3,2 milhões.
+- **A assinatura do programa é a evolução mais promissora — e a mais perigosa.** Cobrar o pacote dos 12 módulos em parcela mensal resolveria retenção, previsibilidade e concentração de uma vez. O float gerado equivaleria a 188% da necessidade de capital no ano 4, mas esse dinheiro é passivo, não capital: nunca deve abater o pedido. Detalhe em [`alavancas-nao-modeladas.md`](alavancas-nao-modeladas.md).
 - **Não existe custo de mercadoria vendida, mas existe custo de lançamento.** R$ 45 mil concentrados nos três primeiros meses são o que coloca a Antévia diante de uma coordenação de escola de negócios.
 
 ## Cobertura do que o Encontro 6 pediu

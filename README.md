@@ -75,6 +75,7 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 | Quanto custa operar | [`sprints/sprint-05/custos-despesas-investimentos.md`](sprints/sprint-05/custos-despesas-investimentos.md) |
 | Como o mercado vai nos descobrir | [`sprints/sprint-05/estrategia-comercial.md`](sprints/sprint-05/estrategia-comercial.md) |
 | Quanto capital pedimos e por quê | [`sprints/sprint-05/dfc-e-necessidade-de-capital.md`](sprints/sprint-05/dfc-e-necessidade-de-capital.md) |
+| Cartão, financiamento e milhas — o que ficou fora | [`sprints/sprint-05/alavancas-nao-modeladas.md`](sprints/sprint-05/alavancas-nao-modeladas.md) |
 | A identidade visual | [`marca/identidade-visual.md`](marca/identidade-visual.md) |
 
 ## Decisões-chave (resumo)
