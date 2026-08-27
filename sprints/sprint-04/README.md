@@ -2,6 +2,8 @@
 
 **Objetivo da sprint (Squeeze 4):** traduzir o modelo de negócio em números — dimensionar o mercado, pesquisar e definir o preço, e projetar a receita em três cenários ao longo de 12 trimestres.
 
+> ⚠️ **Superada em parte pela Sprint 5.** A Sprint 5 elevou a taxa de serviço de R$ 100 para R$ 120 e a meta de comissão em 1 p.p., o que muda a receita projetada. Os números de receita válidos para apresentação são os de [`../sprint-05/dfc-e-necessidade-de-capital.md`](../sprint-05/dfc-e-necessidade-de-capital.md). O método, o dimensionamento de mercado e a análise de sensibilidade desta sprint continuam valendo.
+
 > **Terceira versão.** A primeira projetava R$ 4,58 mi apoiada em turma de 100 alunos e poder de negociação desde o T1. A segunda reduziu a turma a 40. Esta **tira a turma do modelo**: a unidade é o aluno captado, como o exemplo da Banca de Modelagem já fazia. Racional em [`viabilidade-do-primeiro-ano.md`](viabilidade-do-primeiro-ano.md).
 
 ## Documentos desta pasta

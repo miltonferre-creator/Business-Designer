@@ -25,7 +25,7 @@ Na prática: o aluno conhece as datas desde a matrícula, mas compra com menos d
 | Sprint 3 — Solução formalizada, BMC e personas | ✅ Concluída | [`sprints/sprint-03/`](sprints/sprint-03/) |
 | Banca de Modelagem — pitch de 10 minutos | ✅ Apresentada | [`sprints/sprint-03/banca-de-modelagem/`](sprints/sprint-03/banca-de-modelagem/) |
 | Sprint 4 — Viabilidade: projeção de receitas | ✅ Concluída | [`sprints/sprint-04/`](sprints/sprint-04/) |
-| Sprint 5 — Viabilidade: custos, despesas e investimentos | ⬜ A fazer | — |
+| Sprint 5 — Viabilidade: custos, despesas e investimentos | ✅ Concluída | [`sprints/sprint-05/`](sprints/sprint-05/) |
 | Sprint 6 — Plano de implementação | ⬜ A fazer | — |
 | Demo Day — pitch final de 10 minutos | ⬜ A fazer | — |
 
@@ -41,8 +41,10 @@ sprints/
 │   ├── entregaveis/          Sprint_03_Kairos_Antevia.pptx ✓
 │   └── banca-de-modelagem/   Pitch de 10 min: jornada, diferenciais, atores e financeiro
 │       └── entregaveis/      Banca_Modelagem_Kairos_Antevia.pptx ✓
-└── sprint-04/                Viabilidade: mercado, preço, cenários e o desafio do primeiro ano
-    └── entregaveis/          Sprint_04_Kairos_Antevia.pptx + modelo de receitas (XLSX) ✓
+├── sprint-04/                Viabilidade: mercado, preço, cenários e o desafio do primeiro ano
+│   └── entregaveis/          Sprint_04_Kairos_Antevia.pptx + modelo de receitas (XLSX) ✓
+└── sprint-05/                Custos, MVP, macroprocesso, pessoal e necessidade de capital
+    └── entregaveis/          Sprint_05_Kairos_Antevia.pptx + modelo eco-fin (XLSX) ✓
 marca/                        Identidade visual "Minimal Future" e diretrizes de escrita
 └── assets/                   antevia_logo.png, antevia_appicon.png ✓
 apresentacoes/                Cópias dos decks de Sprint 3 e da banca, reunidas para uso em sala
@@ -67,6 +69,12 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 | De onde vem cada número | [`sprints/sprint-04/premissas.md`](sprints/sprint-04/premissas.md) |
 | Por que o primeiro ano é o mais difícil | [`sprints/sprint-04/viabilidade-do-primeiro-ano.md`](sprints/sprint-04/viabilidade-do-primeiro-ano.md) |
 | Se a Sprint 4 bate com o que foi à banca | [`sprints/sprint-04/consistencia-com-a-banca.md`](sprints/sprint-04/consistencia-com-a-banca.md) |
+| O que entra no piloto e o que fica de fora | [`sprints/sprint-05/mvp-e-estrutura-minima.md`](sprints/sprint-05/mvp-e-estrutura-minima.md) |
+| Como a operação funciona de ponta a ponta | [`sprints/sprint-05/macroprocesso.md`](sprints/sprint-05/macroprocesso.md) |
+| Quem governa e quem opera | [`sprints/sprint-05/estrutura-de-pessoal.md`](sprints/sprint-05/estrutura-de-pessoal.md) |
+| Quanto custa operar | [`sprints/sprint-05/custos-despesas-investimentos.md`](sprints/sprint-05/custos-despesas-investimentos.md) |
+| Como o mercado vai nos descobrir | [`sprints/sprint-05/estrategia-comercial.md`](sprints/sprint-05/estrategia-comercial.md) |
+| Quanto capital pedimos e por quê | [`sprints/sprint-05/dfc-e-necessidade-de-capital.md`](sprints/sprint-05/dfc-e-necessidade-de-capital.md) |
 | A identidade visual | [`marca/identidade-visual.md`](marca/identidade-visual.md) |
 
 ## Decisões-chave (resumo)
@@ -80,19 +88,19 @@ Cada pasta tem um `README.md` com o resumo da etapa. Comece por [`sprints/sprint
 - **No primeiro ano não há poder de negociação.** A economia vem só da antecipação, que é a curva tarifária pública e não exige negociar com fornecedor. A compra é feita através de uma consolidadora parceira; bloqueio próprio e convênio vêm com volume (Sprint 4).
 - **A unidade de negociação é o campus numa data, não a turma.** A tarifa de grupo exige 10 passageiros por rota, o que pede 50 a 60 alunos concentrados numa mesma data. Nenhuma turma isolada chega lá — a captação precisa ser concentrada (Sprint 4).
 
-## Números do negócio (cenário tendencial, 3 anos)
+## Números do negócio — cenário Moderado, 5 anos
 
 | Indicador | Valor |
 |---|---|
-| Receita acumulada | R$ 1,10 mi |
-| Receita do ano 1 | R$ 70,9 mil |
-| Economia devolvida aos alunos | R$ 1,95 mi |
-| Viagens organizadas | 5.508 |
-| Alunos ativos no T12 | 650 — 6,2% do mercado onde podemos atuar |
+| **Capital necessário** | **R$ 559 mil** |
+| Receita acumulada | R$ 6,04 mi |
+| GMV transacionado | R$ 39,5 mi |
+| EBITDA acumulado | +R$ 146 mil |
+| EBITDA anual positivo a partir de | Ano 4 |
+| Caixa acumulado positivo | Início do ano 6 |
+| Alunos ativos no fim do ano 5 | 1.755 — 16,7% do mercado onde atuamos |
 
-Faixa dos cenários: R$ 551 mil (pessimista) · R$ 1,10 mi (tendencial) · R$ 1,83 mi (otimista). Memória de cálculo em [`sprints/sprint-04/`](sprints/sprint-04/).
-
-A meta do ano 1 é **captar 100 alunos**, somando todas as turmas e instituições. Isso rende R$ 71 mil — menos de R$ 6 mil por mês, que não paga equipe. Quanto custa atravessar esse período é a pergunta da Sprint 5.
+**Cenário oficial: Moderado.** O ano 1 é o piloto: 100 alunos, nenhuma contratação, R$ 120 mil de caixa consumido. Memória de cálculo em [`sprints/sprint-05/`](sprints/sprint-05/).
 
 ## Próximos passos
 
@@ -101,6 +109,6 @@ A meta do ano 1 é **captar 100 alunos**, somando todas as turmas e instituiçõ
 - Validar a meta de captação de 100 alunos no ano 1 com coordenação de campus com fluxo de fora — é a variável dominante do modelo (±30%)
 - Conferir, no calendário acadêmico dos campi, se dá para concentrar 50 a 60 alunos numa mesma data — é o que liga a tarifa de grupo
 - Validar H2 (tempo por encontro) e H6 (disposição a pagar R$ 50–150) com alunos-executivos
-- Iniciar a Sprint 5: custos, despesas, investimentos, macroprocesso e DFC de 3 anos — respondendo quanto capital é preciso para atravessar um ano 1 de R$ 71 mil
+- Iniciar a Sprint 6: VPL, TIR e payback; EAP e cronograma; matriz de responsabilidades; BSC com marcos e metas; matriz de riscos confrontada com as hipóteses de fracasso
 - Adicionar os PDFs complementares da Sprint 1 (resumos, mapa de contexto, hipóteses), se localizados
 - Acompanhar o registro formal da marca no INPI
